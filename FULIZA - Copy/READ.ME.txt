@@ -1,0 +1,6 @@
+create database "staff"
+then import the sql file in the folder.
+NOTE:
+This system is for educational purpose only. I am not responsible for any damage.
+ Cheza Kama wewe 
+M-Pesa Number : 0722158241
