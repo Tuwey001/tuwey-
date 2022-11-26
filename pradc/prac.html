@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+           
+        }
+        .menu{
+            color: #fff;
+            text-align: center;
+            background-color: hotpink;
+            
+        }
+        .menu ul{
+            display: inline-flex;
+            list-style: none;
+        }
+        .menu ul li{
+            width: 120px;
+            padding: 15px;
+            margin: 15px;
+        }
+        .menu ul li a{
+            color:#fff;
+            text-decoration: none;
+        }
+        .active,.menu ul li:hover{
+            border-radius: 3px;
+            background: powderblue;
+
+        }
+        
+        .edu{
+            display: none;
+            
+        }
+        
+        .menu ul li:hover,.edu{
+            position: absolute;
+            background: rgb(244, 248, 248);
+            margin-top: 15px;
+            margin-left: -15px;
+            color: rgb(185, 11, 156);
+            display: block;
+        }
+        .menu ul li:hover,.edu ul{
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li class="active"><a href="">Home</li>
+                <div class="edu">
+                    <ul>
+                        <li><a href=""></a>Nursery School</li>
+                        <li><a href=""></a>Primary School</li>
+                        <li><a href=""></a>Secondary School</li>
+                        <li><a href=""></a>University School</li>
+    
+                    </ul>
+                </div>
+            <li><a href="">Education</a></li>
+            <li><a href="">Studies</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
