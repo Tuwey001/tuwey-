@@ -1,0 +1,29 @@
+*{
+	margin: auto;
+}
+body{
+	background-color: white;
+	margin-top: 20px;
+	margin-right: 400px;
+	margin-left: 400px;
+	font-size: 24px;
+
+
+}
+.header{
+	background-color: lightblue;
+	margin:50px;
+	padding: 20px;
+	border-style: ridge;
+	text-align: center;
+
+}
+.cont{
+width: 75%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+
+}
